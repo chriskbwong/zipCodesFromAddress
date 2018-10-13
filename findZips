@@ -1,0 +1,11 @@
+function findZips(input) {
+  Utilities.sleep(2000);
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var geo = Maps.newGeocoder()
+     .geocode(input);
+  var latitude = geo.results[0].geometry.location.lat
+  var longitude = geo.results[0].geometry.location.lng
+  var response = Maps.newGeocoder()
+      .reverseGeocode(latitude,longitude);
+  return response.results[0].formatted_address.split(',')[2].trim().split(' ')[1];
+}
