@@ -6,3 +6,4 @@ A1 = 1600 Pennsylvania Ave NW, Washington, DC
 B1 = "=findZips(A1)" --> 20500
 # usage
 enter into google sheets by using the script editor
+does need the full address including street number
