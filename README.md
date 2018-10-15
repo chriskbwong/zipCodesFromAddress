@@ -4,3 +4,5 @@ An appscript script that takes the address from a google sheet cell and outputs 
 1600 Pennsylvania Ave NW, Washington, DC --> 20500
 A1 = 1600 Pennsylvania Ave NW, Washington, DC
 B1 = "=findZips(A1)" --> 20500
+# usage
+enter into google sheets by using the script editor
