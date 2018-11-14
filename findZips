@@ -1,4 +1,4 @@
-function findZips(iput) {
+function findZips(input) {
   Utilities.sleep(2000);
   var sheet = SpreadsheetApp.getActiveSheet();
   var geo = Maps.newGeocoder()
